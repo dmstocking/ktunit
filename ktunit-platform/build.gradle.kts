@@ -17,9 +17,6 @@ dependencies {
     implementation(kotlin("reflect"))
     implementation(kotlin("script-runtime"))
     implementation(kotlin("script-util"))
-    implementation("de.swirtz:ktsRunner:0.0.x")
-    implementation("org.slf4j:slf4j-api:1.7.14")
-    implementation("ch.qos.logback:logback-classic:1.1.3")
 }
 
 tasks.withType<KotlinCompile> {
